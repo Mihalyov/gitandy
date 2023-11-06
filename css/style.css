@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block;}
+
+body {line-height: 1;}
+
+ol, ul {list-style: none;}
+
+blockquote, q {quotes: none;}
+
+blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none;}
+
+table {border-collapse: collapse;border-spacing: 0;}
+
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #e8e8e8;
+}
+
+
+
+.container{
+    width: 880px;
+    margin: 0 auto;
+    padding: 163px 0 857px 0;
+}
+
+
+
+.container_header{
+    font-size: 20px;
+    line-height: 36px;
+    color: #273d46;
+}
+.container_header li{
+    background: url('../img/icons/check_icon_38.png') left no-repeat;
+    padding: 0 0 0 35px;
+}
+.container_header__list1 li:nth-child(1){
+    text-decoration: line-through;
+}
+.container_header__list1 li:nth-child(2){
+    font-weight: 700;
+}
+.container_header__list1 li:nth-child(3){
+    font-style: italic;
+}
+.container_header__list1 li:nth-child(4){
+    text-transform: uppercase;
+}
+
+
+
+.container_header__list2{
+    margin: 68px 0 0 0;
+}
+.container_header__list2 li:hover:nth-child(2){
+    color: #d55a5a;
+    background: url('../img/icons/check_icon\ red_95.png') left no-repeat;
+}
+
+
+
+.container_middle{
+    margin: 127px 0 0 0;
+}
+
+
+
+.container_middle a{
+    padding: 14px 30px;
+    box-shadow: 0px 6px 40px 0px rgba(128,183,179,0.54);
+    background-color: #80b7b3;
+    border-radius: 24px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    text-decoration: none;
+}
+.container_middle span {
+    background: url('../img/icons/shape_2_9.png') right no-repeat;
+    padding: 0 32px 0 0;
+}
+.container_middle__link1{
+    margin: 0 0 0 27px;
+}
+.container_middle__link2{
+    margin: 0 0 0 97px;
+}
+.container_middle__link2:hover{
+    background-color: #3a5856;
+}
+.container_middle__link3{
+    margin: 0 0 0 97px;
+}
+.container_middle__link3:active{
+    background-color: #818181;
+    box-shadow: none;
+}
+
+
+
+.container_footer{
+    margin: 124px 0 0 0;
+}
+
+
+
+.type1{
+    width: 294px;
+    height: 52px;
+    border: 1px solid #b0b0b0;
+}
+.type2{
+    width: 294px;
+    height: 52px;
+    border: 1px solid #b0b0b0;
+    margin: 0 0 0 78px;
+}
+.type2:focus{
+    border: 1px solid #7fbed5;
+    box-shadow: 0px 0px 20px -1px rgba(127,190,213,0.93);
+}
